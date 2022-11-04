@@ -9,6 +9,10 @@ app.get("/",(req,res)=>{
     res.send("Hello form Back-end Api")
 })
 
+app.get("/about",(req,res)=>{
+    res.send("about page")
+})
+
 
 
 
